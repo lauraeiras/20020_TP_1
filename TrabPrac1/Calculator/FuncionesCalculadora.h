@@ -20,23 +20,24 @@ float restar(float X,float Y);
 
 /** \brief
  *
- * \param X float
- * \param Y float
- * \return float
+ * \param X float recibe dato ingresado por usuario
+ * \param Y float recibe dato ingresado por usuario
+ * \return float  retorna la multiplicacion de datos
  *
  */
 float multiplicar(float X,float Y);
 
 /** \brief
  *
- * \param X float
- * \param Y float
- * \return float
+ * \param X float recibe dato ingresado por usuario
+ * \param Y float recibe dato ingresado por usuario
+ * \return float retorna la division de datos
  *
  */
 float dividir(float X,float Y);
 
-/** \brief
+
+/** \brief Funcion recursiva no encuentro otra manera
  *
  * \param numero float
  * \return int

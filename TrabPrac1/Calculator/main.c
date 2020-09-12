@@ -11,8 +11,11 @@ int main()
     float resultadoResta;
     float resultadoMultiplicacion;
     float resultadoDivision;
-    int factorialNumeroA;
-    int factorialNumeroB;
+
+
+    int resultadoFactorialA;
+    int resultadoFactorialB;
+
     int tieneValorA;
     int tieneValorB;
     int calculosFinalizados;
@@ -56,7 +59,7 @@ int main()
       case 3:
           if(tieneValorA == 0 || tieneValorB==0)
           {
-              printf("no se puede calcular Ingrese datos \n ");
+              printf("No se puede calcular Ingrese datos \n ");
           }
           else
           {
@@ -64,9 +67,9 @@ int main()
               resultadoResta=restar(A,B);
               resultadoMultiplicacion=multiplicar(A,B);
               resultadoDivision=dividir(A,B);
-              factorialNumeroA=CalcularFactorial(A);
-              factorialNumeroB=CalcularFactorial(B);
-              printf("Etoy calculando \n");
+              resultadoFactorialA=CalcularFactorial(A);
+              resultadoFactorialB=CalcularFactorial(B);
+              printf("Estoy calculando \n");
 
               calculosFinalizados=1;
           }
@@ -79,19 +82,18 @@ int main()
             {
                 printf ("El resultado de %f + %f es: %f\n",A,B,resultadoSuma);
                 printf ("El resultado de %f - %f es:  %f\n",A,B,resultadoResta);
-                printf ("El resultado de la multiplicacion A*B es: %f\n",resultadoMultiplicacion);
+                printf ("El resultado de la multiplicacion %f * %f es: %f\n",A,B,resultadoMultiplicacion);
                 if(B!=0)
                 {
-                   printf ("El resultado de la division A/B es : %f\n",resultadoDivision);
+                   printf ("El resultado de la division %f / %f es : %f\n\n",A,B,resultadoDivision);
 
                 }
                 else
                     {
                         printf("No se puede dividir por Cero \n");
                     }
-
-                printf ("Calculo Factorial de A es: %d\n",factorialNumeroA);
-                printf ("Calculo Factorial de B es: %d\n",factorialNumeroB);
+                printf ( " Calculo Factorial de A es: % d \ n " , resultadoFactorialA);
+                printf ( " Calculo Factorial de B es: % d \ n " , resultadoFactorialB);
 
           }
           else
@@ -101,12 +103,12 @@ int main()
 
         break;
       case 5:
-           printf("Gracias por utilizar esta calculadora \n");
+           printf("Gracias por utilizar esta calculadora \n\n");
            break;
 
       default:
            printf("Opcion incorrecta \n");
-           printf("Elija una opcion correcta : 1,2,3,4,5 ");
+           printf("Elija una opcion correcta : 1,2,3,4,5 \n");
         break;
       }
 

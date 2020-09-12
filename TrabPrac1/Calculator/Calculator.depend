@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1599939503 source:c:\users\lalys\desktop\programacion2020\20020_tp_1\trabprac1\calculator\funcionescalculadora.c
+1599950315 source:c:\users\lalys\desktop\programacion2020\20020_tp_1\trabprac1\calculator\funcionescalculadora.c
 	"FuncionesCalculadora.h"
 
-1599930488 c:\users\lalys\desktop\programacion2020\20020_tp_1\trabprac1\calculator\funcionescalculadora.h
+1599951865 c:\users\lalys\desktop\programacion2020\20020_tp_1\trabprac1\calculator\funcionescalculadora.h
 
-1599930498 source:c:\users\lalys\desktop\programacion2020\20020_tp_1\trabprac1\calculator\main.c
+1599951794 source:c:\users\lalys\desktop\programacion2020\20020_tp_1\trabprac1\calculator\main.c
 	<stdio.h>
 	<stdlib.h>
 	"FuncionesCalculadora.h"

@@ -41,7 +41,7 @@ float dividir(float X,float Y)
     return resultado;
 }
 
-int CalcularFactorial(float numero)//recibe el float ing, me devuelve parte entera
+int CalcularFactorial(float numero)//
 {
      int resultado;
 
