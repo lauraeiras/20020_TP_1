@@ -32,14 +32,12 @@ float dividir(float X,float Y)
 {
     float resultado;
 
-     if(Y==0)
+    if(Y!=0)
     {
-        printf("No se puede dividir por 0 \n");
+       resultado=X/Y;
     }
-    else
-    {
-        resultado= X/Y;
-    }
+
+
     return resultado;
 }
 
